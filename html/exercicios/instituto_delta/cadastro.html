@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8" />
+		<title>Cadastro - Instituto Delta</title>
+	</head>
+	<body>
+		<table border="0">
+			<tr>
+				<td>
+					<img src="imagens/instituto_delta.jpg" width="50" height="30" align="middle">					
+					<font size="4"><b>Formulário de associação</b></font>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				    <hr width="100%"><a href="index.html" >Home </a><font color="red">Cadastro </font><a href=""> Pagamento</a>
+				    <hr width="100%">
+				    </td>
+			</tr>
+			<tr>
+				<td>
+					<form action="" method="post">
+					    <p align="center">DADOS PESSOAIS</p>
+					    <hr width="center">
+					<table border="0">
+							<tr>
+								<td>CPF</td>
+								<td><input type="number" name="cpf"></td>
+								<td>Nacimento</td>
+								<td><input type="date" name="data"></td>
+							</tr>
+							<tr>
+								<td>Nome</td>
+								<td><input type="text" name="nome"></td>
+								<td>Sobrenome</td>
+								<td>
+									<input type="text" name="sobrenome">
+									<select name="estado">
+										<option value="">  </option>
+										<option value="ac">AC</option>
+										<option value="al">AL</option>
+										<option value="ap">AP</option>
+										<option value="am">AM</option>
+										<option value="ba">BA</option>
+										<option value="ce">CE</option>
+										<option value="df">DF</option>
+										<option value="es">ES</option>
+										<option value="go">GO</option>
+										<option value="ma">MA</option>
+										<option value="mt">MT</option>
+										<option value="ms">MS</option>
+										<option value="mg">MG</option>
+										<option value="pa">PA</option>
+										<option value="pb">PB</option>
+										<option value="pr">PR</option>
+										<option value="pr">PE</option>
+										<option value="pi">PI</option>
+										<option value="rj">RJ</option>
+										<option value="rn">RN</option>
+										<option value="rs">RS</option>
+										<option value="ro">RO</option>
+										<option value="rr">RR</option>
+										<option value="sc">SC</option>
+										<option value="sp">SP</option>
+										<option value="se">SE</option>
+										<option value="to">TO</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>Nacionalidade</td>
+							<td><input type="text" name="Nacionalidade"></td>
+							<td>Estado Civil</td>
+							<td>
+								<select name="estadocivil">
+									<option value="_"> </option>
+									<option value="solteiro">Solteiro(a)</option>
+									<option value="casado">Casado(a)</option>
+									<option value="divorciado">Divorciado(a)</option>
+									<option value="viuvo">viúvo(a)</option>
+									<option value="">separado(a)</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>Tipo de associção</td>
+							<td>
+								<select name="tipo">
+									<option value=" "> </option>
+									<option value=" ">Estudante</option>
+									<option value=" "> </option>
+								</select>
+							</td>
+							<td>Instituição</td>
+							<td><input type="text" name="Instituto">(Universidade, faculdade, empresa etc)</td>
+						</tr>
+						<tr>
+							<td>RG</td>
+							<td><input type="number" name="rg">Emissor RG:<input type="text" name="emissor"></td>
+							<td>Profissão</td>
+							<td><input type="text" name="profissao"></td>
+						</tr>
+					</table>
+					<br>
+					<hr width="100%"><br>
+					<p align="center">DADOS PARA CONTATO</p><hr width="100%">
+					<table border="0">
+						<tr>
+							<td>Logradouro</td>
+							<td><input type="text" name="logradouro"></td>
+							<td>Número</td>
+							<td><input type="number" name="numero" maxlength="4"></td>
+						</tr>
+						<tr>
+							<td>Complemento</td>
+							<td><input type="text" name="complemento"></td>
+							<td>Bairro</td>
+							<td><input type="text" name="bairro"></td>
+							</tr>
+						<tr>
+							<td>CEP</td>
+							<td><input type="number" name="cep">(apenas números)</td>
+							<td>Cidade</td>
+							<td>
+								<input type="text" name="cidade">
+								<select name="Sigla">
+									<option value="">  </option>
+									<option value="ac">AC</option>
+									<option value="al">AL</option>
+									<option value="ap">AP</option>
+									<option value="am">AM</option>
+									<option value="ba">BA</option>
+									<option value="ce">CE</option>
+									<option value="df">DF</option>
+									<option value="es">ES</option>
+									<option value="go">GO</option>
+									<option value="ma">MA</option>
+									<option value="mt">MT</option>
+									<option value="ms">MS</option>
+									<option value="mg">MG</option>
+									<option value="pa">PA</option>
+									<option value="pb">PB</option>
+									<option value="pr">PR</option>
+									<option value="pr">PE</option>
+									<option value="pi">PI</option>
+									<option value="rj">RJ</option>
+									<option value="rn">RN</option>
+									<option value="rs">RS</option>
+									<option value="ro">RO</option>
+									<option value="rr">RR</option>
+									<option value="sc">SC</option>
+									<option value="sp">SP</option>
+									<option value="se">SE</option>
+									<option value="to">TO</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>E-mail</td>
+							<td><input type="email" name="email"></td>
+							<td>Telefone</td>
+							<td><input type="tel" name="fone"></td>
+						</tr>
+					</table>
+					<br>
+					<input type="submit" name="confimar" value="confirmar">
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td><hr width="100%">© 2019 Instituto Delta - All right reserved.</td>
+			</tr>		
+		</table>
+	</body>
+</html>

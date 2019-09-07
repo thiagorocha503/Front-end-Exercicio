@@ -1,0 +1,28 @@
+body {
+	background: #4DED75;
+	font-size: 16px;
+}
+
+input {
+	border-radius: 1px;
+}
+
+.tbformulario {
+	background-color: white;
+	border-radius: 1px;
+}
+
+
+#btnEnviar{
+	background-color: #4DED75; 
+}
+
+tr.conteudo{
+	text-align: right;
+}
+
+tr.btnSubmit, tr.titulo{
+	text-align: center;
+}
+
+

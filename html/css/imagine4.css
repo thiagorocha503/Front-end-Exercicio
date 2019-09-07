@@ -1,0 +1,26 @@
+#geral {
+    borde: 1px;
+	border-color: red ;
+	border-style: solid;
+	margin-left-widt: 15%;
+	margin-right-width: 15%;
+	border-color: maroon;
+}
+
+
+body{color:brown;
+  	 font-family:arial;
+  	 background-image: url("../imagens/fundo_lennon.gif");
+  	 background-repeat: repeat-x;
+}
+h1, .copyright {
+    background-color:maroon;
+    color:#EDC989;}
+    
+p{font-size:12px;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 15px}
+p.centro, p.copyright {text-align:center;}
+p.direita{text-align:right;}
+p.copyright{font-style:italic;}

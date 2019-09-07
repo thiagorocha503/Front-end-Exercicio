@@ -1,0 +1,76 @@
+/*  */
+table.tabela_campeonato {
+	border-color: #DDDDDD;
+	border: 1px;
+	font-family: arial;
+}
+
+tr{
+	text-align: center;
+	color: #666666;
+}
+tr.titulo {
+	font-size: 13px;
+	color: #999999;
+	font-weight: bold;
+}
+
+
+td.time {
+	text-align: left;
+	font-weight: bold;
+	font-size: 14px;
+	color: #666666;
+}
+td.destaque {
+	background-color: #F7F7F7;
+}
+
+td.separador {
+	border-top-width: 2px solid #CCCCCC;
+}
+
+td.pontos{
+	font-weight: bold;
+	font-color: black;
+	background-color: #F7F7F7;	
+}
+td.libertadores {
+	color:#003366;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #F7F7F7;
+}
+
+td.pre-libertadores{
+	color:#1398BE;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #F7F7F7;
+}
+
+td.sul-americana {
+	color:#DE9800;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #F7F7F7;
+}
+
+.cinza {
+	color: #CCCCCC;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #F7F7F7;
+}
+
+td.rebaixados {
+	color: #C91B04;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #F7F7F7;
+}
+
+hr.azul_marinho {
+	color: #003336;
+	width:10px;
+}

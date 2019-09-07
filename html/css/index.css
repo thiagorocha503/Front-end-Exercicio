@@ -1,0 +1,36 @@
+body{
+	background-color:	#7FFFD4;
+}
+#conteudo{
+	width: 80%;
+	margin: auto;
+	background-color: white;
+}
+
+#cabecalho,#menu-esquerdo,#rodape{
+	padding: 20px;
+}
+
+#cabecalho{
+	border-bottom: 1px solid;
+	background-color:	#32CD32;
+}
+
+#menu-esquerdo{
+	background-color: #DDDDDD;
+	float: left;
+}
+
+
+#rodape{
+	text-align:center;
+	background-color:#2F4F4F;
+	color:white;
+	clear: both;
+}
+
+.logo{
+	width: 176px;
+	height: 113px;
+	align-content: right;
+}

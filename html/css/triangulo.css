@@ -1,0 +1,11 @@
+#resultado{
+	border: 1px solid ;
+	height: 20px;
+	text-align: center;
+}
+
+#btnOk {
+	background-color: #A9A9A9;
+	border-radius: 5;
+
+}

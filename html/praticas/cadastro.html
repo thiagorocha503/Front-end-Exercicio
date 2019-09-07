@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<link rel="stylesheet" type="text/css" href="../css/cadastro.css">
+		<script type="text/javascript" src="../js/cadastro-site.js"></script>
+		<title>Cadastro de usuário</title>
+	</head>
+	<body>
+		<div>
+			<form action="../exercicios/e-compras/html/menu.html"  method="post" onsubmit="return validaCampo()">
+				<table class="tbformulario" align="center"  Cellspacing="15">
+					<tr class="titulo">
+						<td colspan="2" ><h3>Cadastro de usuário</h3></td>
+					</tr>
+					<tr class="conteudo">
+						<td>emai-l:</td>
+						<td><input type="email" id="txtEmail"></td>
+					</tr>
+					<tr class="conteudo">
+						<td>usuário: </td>
+						<td><input type="text" id="txtUsuario"></td>
+					</tr>
+					<tr class="conteudo">
+						<td>senha: </td>
+						<td><input type="password"  id="txtSenha"></td>
+					</tr>
+					<tr class="conteudo">
+						<td>Confirme a senha: </td>
+						<td><input type="password" id="txtConfirmacao"></td>
+					</tr>
+					<tr class="btnSubmit">
+						<td colspan="2">
+							<input type="submit"  id="btnEnviar" value="Cadastrar" >
+						</td>
+					</tr>
+				</table>	
+			</form>	
+		</div>
+	</body>
+</html>

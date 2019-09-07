@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../css/calculadora2.css">
+		<script type="text/javascript" src="../js/calculadora-simples-2.js"></script>
+		<title>Calculadora 2</title>
+	</head>
+	<body>
+		<div id="calculadora">
+			<form action="" method="post" name="frmCalculadora">
+				<table>
+					<tr>
+						<td>valor1:</td>
+						<td><input type="text" name="txtValor1"></td></td>
+					</tr>
+					<tr>
+						<td>valor2:</td>
+						<td><input type="text" name="txtValor2"></td></td>
+					</tr>
+					<tr>
+						<td>
+							operação:
+							<select name="operation">
+								<option value=" "> </option>
+								<option value="+">+</option>
+								<option value="-">-</option>
+								<option value="*">*</option>
+								<option value="/">/</option>
+							</select>
+						</td>
+						<td><input type="button" value="calcular" name="btncalcular" onclick="calcular(frmCalculadora.txtValor1.value, frmCalculadora.txtValor2.value, frmCalculadora.operation.value);"></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</body>
+</html>

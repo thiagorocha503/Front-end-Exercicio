@@ -1,0 +1,15 @@
+body{color:brown;
+  	 font-family:arial;
+  	 background-position:center;
+  	 background-image: url("../imagens/fundo_lennon.gif");
+  	 background-repeat: repeat-x;
+}
+h1, .copyright {
+    background-color:maroon;
+    color:#EDC989;}
+    
+p{font-size:12px;
+  font-weight: bold;}
+p.centro, p.copyright {text-align:center;}
+p.direita{text-align:right;}
+p.copyright{font-style:italic;}

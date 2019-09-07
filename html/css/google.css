@@ -1,0 +1,13 @@
+p.titulo{
+	text-align: center;
+  	font-size: 15px;
+  	font-family: arial;
+ }
+
+.azul {
+	color: blue;
+}
+
+.vermelho {color: red;}
+.amarelo {color: yellow;}
+.verde {color: green}

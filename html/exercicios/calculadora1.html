@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>	
+		<meta charset="utf-8">
+		<title>Calculadora</title>
+		<link rel="stylesheet" type="text/css" href="../css/calculadora-1.css">
+		<script type="text/javascript" src="../js/calculadora1.js"></script>
+	</head>
+	<body>
+		<form>		
+			<table border="0" cellpadding="30"  class="calculadora" aling="center">
+				<tr>
+					<td colspan="4">
+						<div id="visor" value="0">0</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="button" class="botao" value="7" onclick="clickBotao(7);"></td>
+					<td><input type="button" class="botao" value="8" onclick="clickBotao(8);"></td>			
+					<td><input type="button" class="botao" value="9" onclick="clickBotao(9);"></td>
+					<td><input type="button" class="botao" value="/ " onclick="clickOperador('/')"></td>
+				</tr>
+				<tr>
+					<td><input type="button" class="botao" value="4" onclick="clickBotao(4);"></td>		
+					<td><input type="button" class="botao" value="5" onclick="clickBotao(5);"></td>
+					<td><input type="button" class="botao" value="6" onclick="clickBotao(6);"></td>
+					<td><input type="button" class="botao" value="* " onclick="clickOperador('*');"></td>
+				</tr>
+				<tr>
+					<td><input type="button" class="botao" value="3" onclick="clickBotao(3);"></td>			
+					<td><input type="button" class="botao" value="2" onclick="clickBotao(2);"></td>
+					<td><input type="button" class="botao" value="1" onclick="clickBotao(1);"></td>
+					<td><input type="button" class="botao" value="-" onclick="clickOperador('-');"></td>
+				<tr>				
+				<tr>
+					<td><input type="button" class="botao" value="0"></td>		
+					<td><input type="button" class="botao" value="=" onclick="clickOperador('=');"></td>
+					<td><input type="button" class="botao" value=", "></td>
+					<td><input type="button" class="botao" value="+" onclick="clickOperador('+');"></td>
+				</tr>		
+			</table>
+		</form>
+	</body>
+</html>
