@@ -1,9 +1,22 @@
-body{color:brown;
-  	 font-family:arial;
+body {
+    color: brown;
+    font-family: arial;
 }
-p{font-size:12px;
-  font-weight: bold;}
-p.centro{text-align:center;}
-p.direita{text-align:right;}
-p.copyright{text-align: center;
-			font-style:italic;}
+
+p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+p.centro {
+    text-align: center;
+}
+
+p.direita {
+    text-align: right;
+}
+
+p.copyright {
+    text-align: center;
+    font-style: italic;
+}

@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="utf-8">
-		<title>Triângulo</title>
-		<link rel="stylesheet" type="text/css" href="../css/triangulo.css">
-		<script type="text/javascript" src="../js/triangulo.js"></script>
-	</head>
-	<body>
-		<form name="frmTriangulo">
-		<table>
-			<tr>
-				<td>valor 1:</td>
-				<td><input type="text" name="txtValor1"></td>
-			</tr>
-			<tr>
-				<td>valor 2:</td>
-				<td><input type="text" name="txtValor2"></td>
-			</tr>
-			<tr>
-				<td>valor 3:</td>
-				<td><input type="text" name="txtValor3"></td>
-			</tr>
-			<tr align="center">
-				<td colspan="2">
-					<input type="button" id="btnOk" value="OK"onclick="tipoTriangulo(frmTriangulo.txtValor1.value, frmTriangulo.txtValor2.value, frmTriangulo.txtValor3.value);">
-				</td>
-			</tr>
-			<tr>
-				<td>Resultado: </td>
-				<td><div id="resultado"></div></td>
-			</tr>
-		</table>
-		</form>
-				
-	</body>
+
+<head>
+    <meta charset="utf-8">
+    <title>Triângulo</title>
+    <link rel="stylesheet" type="text/css" href="../css/triangulo.css">
+    <script type="text/javascript" src="../js/triangulo.js"></script>
+</head>
+
+<body>
+    <form name="frmTriangulo">
+        <table>
+            <tr>
+                <td>valor 1:</td>
+                <td><input type="text" name="txtValor1"></td>
+            </tr>
+            <tr>
+                <td>valor 2:</td>
+                <td><input type="text" name="txtValor2"></td>
+            </tr>
+            <tr>
+                <td>valor 3:</td>
+                <td><input type="text" name="txtValor3"></td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">
+                    <input type="button" id="btnOk" value="OK" onclick="tipoTriangulo(frmTriangulo.txtValor1.value, frmTriangulo.txtValor2.value, frmTriangulo.txtValor3.value);">
+                </td>
+            </tr>
+            <tr>
+                <td>Resultado: </td>
+                <td>
+                    <div id="resultado"></div>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
 </html>

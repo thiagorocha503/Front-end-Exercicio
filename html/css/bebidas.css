@@ -1,9 +1,29 @@
-body {font-family: arial}
-h3, h4{color:#007E7E;}
-.verde {color:green}
-.azul {color: blue}
-.roxo {color: purple}
-.marrom {color:maroon}
-p.centro{color:gray;
-		 text-align:center;
+body {
+    font-family: arial
+}
+
+h3,
+h4 {
+    color: #007E7E;
+}
+
+.verde {
+    color: green
+}
+
+.azul {
+    color: blue
+}
+
+.roxo {
+    color: purple
+}
+
+.marrom {
+    color: maroon
+}
+
+p.centro {
+    color: gray;
+    text-align: center;
 }

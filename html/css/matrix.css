@@ -1,17 +1,24 @@
-body {background-color:black;}
-
-h1, h2 {color:white;
-		font-family: arial;
-		width:88%;
-		font-style:italic;
-		background-image: url("../imagens/fundo_matrix.jpg")
+body {
+    background-color: black;
 }
 
-p.paragrafo {font-family:verdana;
-			 color:lightgreen ;
-			 font-size:12px;
-			 text-indent: 50px;	
-			 width:88%;	
+h1,
+h2 {
+    color: white;
+    font-family: arial;
+    width: 88%;
+    font-style: italic;
+    background-image: url("../imagens/fundo_matrix.jpg")
 }
 
-h2.rodape {text-align:right;}
+p.paragrafo {
+    font-family: verdana;
+    color: lightgreen;
+    font-size: 12px;
+    text-indent: 50px;
+    width: 88%;
+}
+
+h2.rodape {
+    text-align: right;
+}

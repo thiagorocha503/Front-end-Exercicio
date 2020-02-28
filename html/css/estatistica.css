@@ -1,39 +1,40 @@
-table.tabela{
-	background-color:#C7E7F3;
-	width:600px;
-	font-family:arial;
-	font-size: 12px;
-	align: center;
+table.tabela {
+    background-color: #C7E7F3;
+    width: 600px;
+    font-family: arial;
+    font-size: 12px;
 }
 
-td.titulo{
-	color: white;
-	background-color:#0D5188;
-	font-weight:bold;
-	text-align: center;
+td.titulo {
+    color: white;
+    background-color: #0D5188;
+    font-weight: bold;
+    text-align: center;
 }
-tr.coluna_nome {	
-	background-color: #66C5E3;
-	color: black;
-	font-weight: bold;
+
+tr.coluna_nome {
+    background-color: #66C5E3;
+    color: black;
+    font-weight: bold;
 }
-tr.coluna_conteudo{
-	background-color:#C7E7F3;
-	color:#0D5188;
+
+tr.coluna_conteudo {
+    background-color: #C7E7F3;
+    color: #0D5188;
 }
 
 td.coluna_posicao {
-	width: 10%;
-	background-color:gray;
-	color: black;
-	text-align: center;
+    width: 10%;
+    background-color: gray;
+    color: black;
+    text-align: center;
 }
 
-td.cidade{
-	font-weight: bold;
+td.cidade {
+    font-weight: bold;
 }
 
 td.coluna_pop {
-	width: 15%;
-	text-align: center;
+    width: 15%;
+    text-align: center;
 }

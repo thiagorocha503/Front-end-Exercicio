@@ -1,5 +1,5 @@
-function bemVindo(){
-	alert("Bem vindo!","");
+function bemVindo() {
+    alert("Bem vindo!", "");
 }
 
 //onload="bemVindo();"

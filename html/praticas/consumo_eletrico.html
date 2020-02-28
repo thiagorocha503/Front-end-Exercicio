@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="utf-8" />
-		<script type="text/javascript" src="../js/consumo_eletrico.js"></script>
-		<link rel="stylesheet" type="text/css" href="../css/consumo_eletrico.css">
-		<title>Consumo elétrico</title>
-	</head>
-	<body>
-		<div id="conteudo">
-			<form name="formulario">
-				<table>
-					<tr>
-						<td>Consumo(kw/h):</td>
-						<td><input type="text" name="txtConsumo"></td>
-					</tr>
-					<tr>			
-						<td>Valor unitário do kw/h:</td>
-						<td><input type="text" name="txtUnidade"></td>
-					</tr>
-					<tr>
-						<td colspan="2" align="center"><input type="button" id="btn-calcular" value="calcular" onclick="calculaConsumo(formulario.txtConsumo.value, formulario.txtUnidade.value);"></td>
-					</tr>
-				</table>
-			</form>
-		</div>
-	</body>
+
+<head>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="../js/consumo_eletrico.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/consumo_eletrico.css">
+    <title>Consumo elétrico</title>
+</head>
+
+<body>
+    <div id="conteudo">
+        <form name="formulario">
+            <table>
+                <tr>
+                    <td>Consumo(kw/h):</td>
+                    <td><input type="text" name="txtConsumo"></td>
+                </tr>
+                <tr>
+                    <td>Valor unitário do kw/h:</td>
+                    <td><input type="text" name="txtUnidade"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input type="button" id="btn-calcular" value="calcular" onclick="calculaConsumo(formulario.txtConsumo.value, formulario.txtUnidade.value);"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
 </html>
